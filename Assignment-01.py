@@ -12,7 +12,7 @@ from collections import defaultdict
 zweitstimmenGruppe = defaultdict(float)
 
 # open csv file 
-with open("/Users/apple/Desktop/BeuthData/Beuth-Lecture/Praxis_DataScience/ergebnisse.csv", encoding="utf-8") as csvfile:
+with open("ergebnisse.csv", encoding="utf-8") as csvfile:
 
     csvreader = csv.reader(csvfile, delimiter=';')
     for row in csvreader:
